@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #bdf1f6;
+}
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+button,
+select,
+input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    outline: 0;
+    background-color: #8fbaf3;
+}
+
+input {
+    text-align: center;
+}
+
+button {
+    transition: background-color 250ms linear, 
+                color 250ms linear, 
+                border 250ms linear;
+    cursor: pointer;
+    border: 1px solid #0245a3;
+}
+
+button:hover {
+    background-color: #0245a3;
+    color: #fff;
+}
+
+#answer {
+    font-size: 54px;
+    margin-top: 20px;
+    text-align: center;
+    color: #0245a3;
+}
